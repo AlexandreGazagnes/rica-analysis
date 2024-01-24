@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "rica-analysis"
+version = "0.1.0"
+description = "rica-analysis"
+authors = ["AlexandreGazagnes"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.4.4"
+coverage = "^7.4.0"
+
+
+[tool.poetry.group.qa.dependencies]
+flake8 = "^7.0.0"
+mypy = "^1.8.0"
+isort = "^5.13.2"
+coverage = "^7.4.0"
+bandit = "^1.7.7"
+pyflakes = "^3.2.0"
+pydocstyle = "^6.3.0"
+mccabe = "^0.7.0"
+safety = "^3.0.1"
+pycln = "^2.4.0"
+coverage-badge = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+notebook = "^7.0.7"
+jupyterlab = "^4.0.11"
+black = "^23.12.1"
+mkdocs = "^1.5.3"
+python-dotenv = "^1.0.1"
+pre-commit = "^3.6.0"
+ipykernel = "^6.29.0"
+jupytext = "^1.16.1"
+ipywidgets = "^8.1.1"
+jupyter-contrib-nbextensions = "^0.7.0"
+nbconvert = "^7.14.2"
+
+
+[tool.poetry.group.front.dependencies]
+streamlit = "^1.30.0"
+
+
+[tool.poetry.group.api.dependencies]
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+
+
+[tool.poetry.group.viz.dependencies]
+matplotlib = "^3.8.2"
+seaborn = "^0.13.1"
+plotly = "^5.18.0"
+folium = "^0.15.1"
+missingno = "^0.5.2"
+geopandas = "^0.14.2"
+yellowbrick = "^1.5"
+
+
+[tool.poetry.group.ml.dependencies]
+scikit-learn = "^1.4.0"
+xgboost = "^2.0.3"
+lightgbm = "^4.2.0"
+imbalanced-learn = "^0.11.0"
+category-encoders = "^2.6.3"
+statsmodels = "^0.14.1"
+scipy = "^1.12.0"
+
+
+[tool.poetry.group.web.dependencies]
+scrapy = "^2.11.0"
+selenium = "^4.17.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
