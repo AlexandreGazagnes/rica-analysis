@@ -1,32 +1,6 @@
-# 0.1.0 - 2024-XX-XX - STUFFF
-==================
+# 0.1.0 - 2024-01.24 - feat/struct - Build repository structure
 
 ### Added
-- [x] 
-- [x]
-- [x]
+- [x]  All files and folders from the template repository
+- [x]  Update deps and dev-deps
 
-### Updated
-- [x]
-- [x]
-- [x]
-
-### Fixed
-- [x]
-- [x]
-- [x]
-
-### Removed
-- [x]
-- [x]
-- [x]
-
-### Deprecated
-- [x]
-- [x]
-- [x]
-
-### Todo
-- [x]
-- [x]
-- [x]

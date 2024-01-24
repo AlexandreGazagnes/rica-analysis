@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: rica-analysis
+site_url: https://alexandregazagnes.github.io/rica-analysis
+nav:
+  - Home: index.md
+theme: readthedocs
